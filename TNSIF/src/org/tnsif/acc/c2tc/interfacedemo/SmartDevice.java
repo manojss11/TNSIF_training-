@@ -1,4 +1,4 @@
-package org.tnsif.acc.c2tc.intaerfacedemo;
+package org.tnsif.acc.c2tc.interfacedemo;
 
 public interface SmartDevice {
 	void turnOn();
