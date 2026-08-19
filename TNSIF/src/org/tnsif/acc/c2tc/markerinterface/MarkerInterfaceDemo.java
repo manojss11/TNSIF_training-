@@ -18,7 +18,6 @@ public class MarkerInterfaceDemo {
 			System.out.println("Student is not registered for this course");
 		}
 		
-
 	}
 
 }
