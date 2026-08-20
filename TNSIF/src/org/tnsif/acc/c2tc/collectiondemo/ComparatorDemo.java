@@ -5,12 +5,12 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-class Person6
+class Person7
 {
 	String name;
 	int age;
 	
-	public Person6(String name, int age) {
+	public Person7(String name, int age) {
 		super();
 		this.name = name;
 		this.age = age;
@@ -48,16 +48,16 @@ public class ComparatorDemo {
 
 	public static void main(String[] args) {
 	
-      List<Person6> people =new ArrayList<>();
-      people.add(new Person6("Sushma",34));
-      people.add(new Person6("Akash",25));
-      people.add(new Person6("Hema",17));
+      List<Person7> people =new ArrayList<>();
+      people.add(new Person7("Sushma",34));
+      people.add(new Person7("Akash",25));
+      people.add(new Person7("Hema",17));
       
       Collections.sort(people , new  NameComparator());
       System.out.println("Sorted by name");
       System.out.println();
       
-      for(Person6 person:people)
+      for(Person7 person:people)
       {
     	  person.display();
       }
@@ -68,7 +68,7 @@ public class ComparatorDemo {
       System.out.println("Sorted by age");
       System.out.println();
       
-      for(Person6 person:people)
+      for(Person7 person:people)
       {
     	  person.display();
       }
