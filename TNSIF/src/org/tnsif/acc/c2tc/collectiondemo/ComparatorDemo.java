@@ -22,22 +22,22 @@ class Person7
 
 }
 
-class NameComparator implements Comparator<Person6>
+class NameComparator implements Comparator<Person7>
 {
 
 	@Override
-	public int compare(Person6 p1, Person6 p2) {
+	public int compare(Person7 p1, Person7 p2) {
 		
 		return p1.name.compareTo(p2.name);
 	}
 	
 }
 
-class AgeComparator implements Comparator<Person6>
+class AgeComparator implements Comparator<Person7>
 {
 
 	@Override
-	public int compare(Person6 p1, Person6 p2) {
+	public int compare(Person7 p1, Person7 p2) {
 		
 		return Integer.compare(p1.age,p2.age);
 	}
